@@ -15,7 +15,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/icon.png' }
     ]
   },
 
@@ -42,7 +42,7 @@ export default {
        name:"Geez AI",
        short_name:"Geez",
        theme_color:"#00bcd4",
-       
+
      }
   },
 
