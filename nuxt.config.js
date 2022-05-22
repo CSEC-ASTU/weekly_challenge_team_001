@@ -35,11 +35,21 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+       '@nuxtjs/pwa',
   ],
+  pwa:{
+     manifest:{
+       name:"Geez AI",
+       short_name:"Geez",
+       theme_color:"#00bcd4",
+       
+     }
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    'vue-social-sharing/nuxt'
+    'vue-social-sharing/nuxt',
+    '@nuxtjs/pwa',
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
