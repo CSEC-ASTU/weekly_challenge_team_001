@@ -45,7 +45,7 @@
         <div class="col-lg-5 col-md-8 home-banner-left">
           <h1 class="text-white">
             Take the first step <br />
-            tolearn Ge'ez with us
+            to learn Geez with us
           </h1>
           <p class="mx-auto text-white  mt-20 mb-40">
             Geez is a AI tool for Detecting Human hand writen Geez numbers, 
