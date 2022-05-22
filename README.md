@@ -16,7 +16,8 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
+#Powerfull Editor included
+![asec](static/assets/geez5.png) 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
 ## Special Directories
