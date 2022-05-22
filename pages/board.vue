@@ -224,7 +224,7 @@
                     </div>
                     <div class="btn-row">
                         <button v-on:click="takeshot">
-                            <p v-if="processing">Processcing ....</p>
+                            <p v-if="processing" style="color:#fff">Processing ....</p>
                             <img v-else src="assets/process.png" alt="" style="width:35px">
 
                         </button>
@@ -232,7 +232,7 @@
                     <form @submit.prevent="Upload">
 
                         <input @change="SaveChanges" :v-model="image_data" type="file" placeholder="Select Image">
-                        <input type="submit" value="Submit" />
+                        <input v-if="image_data" type="submit" value="Submit"  />
                     </form>
 
                     <div class="btn-row" style="height:55px;width:85px">
