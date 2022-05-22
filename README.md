@@ -16,9 +16,13 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
+# Powerfull Editor included
+![asec](static/assets/geez5.png) 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
+
+# Feautures included
+![asec](static/assets/geez2.png) 
 ## Special Directories
 
 You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
